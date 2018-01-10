@@ -1,0 +1,6 @@
+framework module Pods_GpalFwkUtils_Example {
+  umbrella header "Pods-GpalFwkUtils_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

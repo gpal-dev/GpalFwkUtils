@@ -1,0 +1,22 @@
+{
+  "name": "GpalFwkUtils",
+  "version": "0.1.0",
+  "summary": "A short description of GpalFwkUtils.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/gpal.dev.ind@gmail.com/GpalFwkUtils",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "gpal.dev.ind@gmail.com": "gpal-dev@github.com"
+  },
+  "source": {
+    "git": "https://github.com/gpal.dev.ind@gmail.com/GpalFwkUtils.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "GpalFwkUtils/Classes/**/*"
+}
