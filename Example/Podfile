@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GpalFwkUtils_Example' do
+  pod 'GpalFwkUtils', :path => '../'
+
+  target 'GpalFwkUtils_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
