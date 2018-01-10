@@ -7,12 +7,14 @@
 //
 
 #import "GpalAppDelegate.h"
+#import <GpalFwkUtils/NSString+Utils.h>
 
 @implementation GpalAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    NSLog(@"%@", [@"Hello" gpal_stringByAppendingCharacter:'!']);
     return YES;
 }
 

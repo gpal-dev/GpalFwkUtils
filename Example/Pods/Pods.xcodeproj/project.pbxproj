@@ -8,15 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		073D891E65F765DED2D5FD847147FF7F /* Pods-GpalFwkUtils_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FF94460DF257F16AB82573317A42751 /* Pods-GpalFwkUtils_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2D1798940C55FB7E1524318E2B72C4BF /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 645C60B0F451F411F191CD3319DDF58B /* ReplaceMe.m */; };
+		32F6D0D5FF5E04CBE9C22DA862688D8E /* GpalFwkUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C7512EA25519472021733E39B01DAE /* GpalFwkUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		592D2217F6420ECE882E33ADEE227E33 /* Pods-GpalFwkUtils_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B3116EFCDDAD85C3D1FD4D8622A024E /* Pods-GpalFwkUtils_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		62C790BF0E0205421A2DDEE05A82549A /* Pods-GpalFwkUtils_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 743C76E214F197433D4FC86D93BCAE18 /* Pods-GpalFwkUtils_Example-dummy.m */; };
-		834B2B574AE4C72FFBAF1EFEBD042462 /* GpalFwkUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D03738CD7D639EEE819735B5A3BED2B /* GpalFwkUtils-dummy.m */; };
 		A5F25C256CDE1E129E1775CC2CAACAA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B1F6FEB6A6DE8652502333AC3DB422FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		C516828099AED908EB465D9E58ECA7D4 /* Pods-GpalFwkUtils_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EAAB51375489F2E9C136A18C50A84B /* Pods-GpalFwkUtils_Tests-dummy.m */; };
-		C80B0CBD544C0A80972F8C3877ED5C54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		CDD32F97DC709DAED93FFDB37F992C12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		EF2CFD4961BF95CA65019CB98D053A31 /* GpalFwkUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7732B38EC08DB7FC7065E5467044167B /* GpalFwkUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3703F1EACFB65322F1D512AD79C8874 /* NSString+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5196C94E474EDE4F12C20EE5B0BA73BB /* NSString+Utils.m */; };
+		DB0EFFCAC7D2DA70F5D3D30A7B317A2E /* GpalFwkUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF24941E655146D667B394A39D0E06A /* GpalFwkUtils-dummy.m */; };
+		E47ED67B8565D4B436AE5E5CB2C0DA50 /* NSString+Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 32F1A08F8E56C1CEAE1308F66245F6DE /* NSString+Utils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,60 +25,61 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6DFB09ACDDB2B22D8D6F3E7EDA191847;
+			remoteGlobalIDString = A38D9FCCCEE2E11637B1EE8D80E431D3;
 			remoteInfo = GpalFwkUtils;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		03EAAB51375489F2E9C136A18C50A84B /* Pods-GpalFwkUtils_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GpalFwkUtils_Tests-dummy.m"; sourceTree = "<group>"; };
+		068287035CF55B38EA84749D80B237FF /* GpalFwkUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GpalFwkUtils-prefix.pch"; sourceTree = "<group>"; };
 		0E1C365B1B82EF0DFB39D2862D78F05F /* Pods_GpalFwkUtils_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GpalFwkUtils_Tests.framework; path = "Pods-GpalFwkUtils_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		17E17250101B85B5BEB98B61B0ABA695 /* Pods-GpalFwkUtils_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GpalFwkUtils_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		2FF94460DF257F16AB82573317A42751 /* Pods-GpalFwkUtils_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GpalFwkUtils_Example-umbrella.h"; sourceTree = "<group>"; };
 		30BDAF9DE769B6C88DBE57A0163C6279 /* GpalFwkUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GpalFwkUtils.framework; path = GpalFwkUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32F1A08F8E56C1CEAE1308F66245F6DE /* NSString+Utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Utils.h"; path = "GpalFwkUtils/Classes/NSString+Utils.h"; sourceTree = "<group>"; };
 		3CFCBC217C7800407A824087D8F597B0 /* Pods-GpalFwkUtils_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GpalFwkUtils_Example-frameworks.sh"; sourceTree = "<group>"; };
-		3E9E2BD1DD58C89A375EE30D625879F9 /* GpalFwkUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GpalFwkUtils-prefix.pch"; sourceTree = "<group>"; };
 		4DE4C87F61579518E8AB7A9564BBB4CB /* Pods-GpalFwkUtils_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GpalFwkUtils_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5196C94E474EDE4F12C20EE5B0BA73BB /* NSString+Utils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Utils.m"; path = "GpalFwkUtils/Classes/NSString+Utils.m"; sourceTree = "<group>"; };
 		5C80EEEE589EE52867DEB75152ECF779 /* Pods-GpalFwkUtils_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GpalFwkUtils_Tests.modulemap"; sourceTree = "<group>"; };
-		645C60B0F451F411F191CD3319DDF58B /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = GpalFwkUtils/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		72F689E6D62046E0EB0FD3C90B1BAE86 /* Pods-GpalFwkUtils_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GpalFwkUtils_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		738010909423ED089195B390D52B9905 /* Pods-GpalFwkUtils_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GpalFwkUtils_Tests-resources.sh"; sourceTree = "<group>"; };
 		743C76E214F197433D4FC86D93BCAE18 /* Pods-GpalFwkUtils_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GpalFwkUtils_Example-dummy.m"; sourceTree = "<group>"; };
-		7732B38EC08DB7FC7065E5467044167B /* GpalFwkUtils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GpalFwkUtils-umbrella.h"; sourceTree = "<group>"; };
 		7F4453573609706D4D36963E56FF4CCF /* Pods-GpalFwkUtils_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GpalFwkUtils_Example.modulemap"; sourceTree = "<group>"; };
+		86C7512EA25519472021733E39B01DAE /* GpalFwkUtils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GpalFwkUtils-umbrella.h"; sourceTree = "<group>"; };
 		87B5DA8FA665CFD620B01429F075778C /* Pods-GpalFwkUtils_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GpalFwkUtils_Example-resources.sh"; sourceTree = "<group>"; };
 		8B3116EFCDDAD85C3D1FD4D8622A024E /* Pods-GpalFwkUtils_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GpalFwkUtils_Tests-umbrella.h"; sourceTree = "<group>"; };
-		8D03738CD7D639EEE819735B5A3BED2B /* GpalFwkUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GpalFwkUtils-dummy.m"; sourceTree = "<group>"; };
+		8CBAB48420F1FAFBEF26193CD0EDF317 /* GpalFwkUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GpalFwkUtils.modulemap; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A0D9847CCA5D9FAEF43FAEEB204AAFAE /* Pods-GpalFwkUtils_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GpalFwkUtils_Example.release.xcconfig"; sourceTree = "<group>"; };
 		AB57B91DF205FF3AD84B36667AF18E0F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B1DADE6ACFD315C2D65DD6C3032D824B /* Pods_GpalFwkUtils_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GpalFwkUtils_Example.framework; path = "Pods-GpalFwkUtils_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3BA47178A9D98666E7F9478097F3361 /* Pods-GpalFwkUtils_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GpalFwkUtils_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		B67859358074FEF61087509A6A4072FB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B9788DBB84B4639BC516AFFADD2550AB /* Pods-GpalFwkUtils_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GpalFwkUtils_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		BD8181460D1FA73EFD2DC48D2B88162A /* GpalFwkUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GpalFwkUtils.modulemap; sourceTree = "<group>"; };
-		C54065EDB552CDD70AB6BA86655070F1 /* GpalFwkUtils.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GpalFwkUtils.xcconfig; sourceTree = "<group>"; };
 		C6146DD278F8910F3910C27D24CD05BD /* Pods-GpalFwkUtils_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GpalFwkUtils_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CEF24941E655146D667B394A39D0E06A /* GpalFwkUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GpalFwkUtils-dummy.m"; sourceTree = "<group>"; };
 		D08D91E6BB2F677F2F153821F926FC60 /* Pods-GpalFwkUtils_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GpalFwkUtils_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E9524A6D214F6BE1C38718DBF8CD0C44 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F43C13511179449BB814DBAE2B276AF5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7D2AF3240C4FC86C78AE4C52FD5C82E /* Pods-GpalFwkUtils_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GpalFwkUtils_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F7FFBCBBFED70005D8697DCFD70D785E /* GpalFwkUtils.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GpalFwkUtils.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		36204E646986EC1FF7F0A8E8A552FBCA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C80B0CBD544C0A80972F8C3877ED5C54 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6D6B4F75BA45D418D7D5E11635AA7BB5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A5F25C256CDE1E129E1775CC2CAACAA0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF61F8D46D52BF394C51784335C57527 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1F6FEB6A6DE8652502333AC3DB422FA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,14 +94,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0CF547BC4FE39A9D08C16B6755EAA87E /* GpalFwkUtils */ = {
+		05BF8C7A3575E12BCFC74B7A2BB19DF6 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				645C60B0F451F411F191CD3319DDF58B /* ReplaceMe.m */,
-				CEE1110E910D468C3A135C6C9A254BFC /* Support Files */,
+				85D36D612A34F0CE7507B0B8D441C220 /* GpalFwkUtils */,
 			);
-			name = GpalFwkUtils;
-			path = ../..;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		2C9259A5552F89289BEB1A62DE9EEB05 /* Pods-GpalFwkUtils_Tests */ = {
@@ -138,15 +138,40 @@
 			path = "Target Support Files/Pods-GpalFwkUtils_Example";
 			sourceTree = "<group>";
 		};
+		7001BDC638B3E155DA9E1A93F5942726 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CBAB48420F1FAFBEF26193CD0EDF317 /* GpalFwkUtils.modulemap */,
+				F7FFBCBBFED70005D8697DCFD70D785E /* GpalFwkUtils.xcconfig */,
+				CEF24941E655146D667B394A39D0E06A /* GpalFwkUtils-dummy.m */,
+				068287035CF55B38EA84749D80B237FF /* GpalFwkUtils-prefix.pch */,
+				86C7512EA25519472021733E39B01DAE /* GpalFwkUtils-umbrella.h */,
+				F43C13511179449BB814DBAE2B276AF5 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GpalFwkUtils";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				FD71F10AC44C99E2728E8DF66B09C421 /* Development Pods */,
+				05BF8C7A3575E12BCFC74B7A2BB19DF6 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				A08A83F7183E7686180FACAF0C4D3C2D /* Products */,
 				D14DFFF19B78EBAB9407D9F302AECC75 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		85D36D612A34F0CE7507B0B8D441C220 /* GpalFwkUtils */ = {
+			isa = PBXGroup;
+			children = (
+				32F1A08F8E56C1CEAE1308F66245F6DE /* NSString+Utils.h */,
+				5196C94E474EDE4F12C20EE5B0BA73BB /* NSString+Utils.m */,
+				7001BDC638B3E155DA9E1A93F5942726 /* Support Files */,
+			);
+			name = GpalFwkUtils;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		A08A83F7183E7686180FACAF0C4D3C2D /* Products */ = {
@@ -167,20 +192,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CEE1110E910D468C3A135C6C9A254BFC /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				BD8181460D1FA73EFD2DC48D2B88162A /* GpalFwkUtils.modulemap */,
-				C54065EDB552CDD70AB6BA86655070F1 /* GpalFwkUtils.xcconfig */,
-				8D03738CD7D639EEE819735B5A3BED2B /* GpalFwkUtils-dummy.m */,
-				3E9E2BD1DD58C89A375EE30D625879F9 /* GpalFwkUtils-prefix.pch */,
-				7732B38EC08DB7FC7065E5467044167B /* GpalFwkUtils-umbrella.h */,
-				B67859358074FEF61087509A6A4072FB /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/GpalFwkUtils";
-			sourceTree = "<group>";
-		};
 		D14DFFF19B78EBAB9407D9F302AECC75 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -198,14 +209,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		FD71F10AC44C99E2728E8DF66B09C421 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				0CF547BC4FE39A9D08C16B6755EAA87E /* GpalFwkUtils */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -217,14 +220,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8DDF8AA33AC31686D1B3FA7E444DDE13 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EF2CFD4961BF95CA65019CB98D053A31 /* GpalFwkUtils-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		DC481612073A36F404E5A5B7B15C7CDE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -233,16 +228,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DD5AE45798CCB6436F425210E30E6A61 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32F6D0D5FF5E04CBE9C22DA862688D8E /* GpalFwkUtils-umbrella.h in Headers */,
+				E47ED67B8565D4B436AE5E5CB2C0DA50 /* NSString+Utils.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		6DFB09ACDDB2B22D8D6F3E7EDA191847 /* GpalFwkUtils */ = {
+		A38D9FCCCEE2E11637B1EE8D80E431D3 /* GpalFwkUtils */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 76900FF322494BEE04B95ECBB764A4AA /* Build configuration list for PBXNativeTarget "GpalFwkUtils" */;
+			buildConfigurationList = FDAADAD52A7024E758DD651A993841A7 /* Build configuration list for PBXNativeTarget "GpalFwkUtils" */;
 			buildPhases = (
-				29251B37D944CD1577C0D53B443AF4F4 /* Sources */,
-				36204E646986EC1FF7F0A8E8A552FBCA /* Frameworks */,
-				8DDF8AA33AC31686D1B3FA7E444DDE13 /* Headers */,
+				D2B5DD45DEB4A06DB7B0CDD4007C4C14 /* Sources */,
+				BF61F8D46D52BF394C51784335C57527 /* Frameworks */,
+				DD5AE45798CCB6436F425210E30E6A61 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -309,7 +313,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6DFB09ACDDB2B22D8D6F3E7EDA191847 /* GpalFwkUtils */,
+				A38D9FCCCEE2E11637B1EE8D80E431D3 /* GpalFwkUtils */,
 				F48C6BC20C5059A95C29BDAE2BBB1539 /* Pods-GpalFwkUtils_Example */,
 				FF9474F2B66686E34B2903D7F1A89170 /* Pods-GpalFwkUtils_Tests */,
 			);
@@ -317,15 +321,6 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		29251B37D944CD1577C0D53B443AF4F4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				834B2B574AE4C72FFBAF1EFEBD042462 /* GpalFwkUtils-dummy.m in Sources */,
-				2D1798940C55FB7E1524318E2B72C4BF /* ReplaceMe.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		378FA4AE5F5EE40AE4A3A42DD4472E69 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -342,13 +337,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D2B5DD45DEB4A06DB7B0CDD4007C4C14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB0EFFCAC7D2DA70F5D3D30A7B317A2E /* GpalFwkUtils-dummy.m in Sources */,
+				D3703F1EACFB65322F1D512AD79C8874 /* NSString+Utils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		302C88C9D5869C5697E9E5661890333B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GpalFwkUtils;
-			target = 6DFB09ACDDB2B22D8D6F3E7EDA191847 /* GpalFwkUtils */;
+			target = A38D9FCCCEE2E11637B1EE8D80E431D3 /* GpalFwkUtils */;
 			targetProxy = 001CFB47B96AF3854F5DB7244826A83A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -380,6 +384,36 @@
 				PRODUCT_NAME = Pods_GpalFwkUtils_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		32EC86E9FF5CD43E9ED0A2A264725FE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7FFBCBBFED70005D8697DCFD70D785E /* GpalFwkUtils.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GpalFwkUtils/GpalFwkUtils-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GpalFwkUtils/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GpalFwkUtils/GpalFwkUtils.modulemap";
+				PRODUCT_NAME = GpalFwkUtils;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -480,6 +514,35 @@
 			};
 			name = Release;
 		};
+		65202CB0A6FE68E4F61087FD0EACFD1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7FFBCBBFED70005D8697DCFD70D785E /* GpalFwkUtils.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GpalFwkUtils/GpalFwkUtils-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GpalFwkUtils/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GpalFwkUtils/GpalFwkUtils.modulemap";
+				PRODUCT_NAME = GpalFwkUtils;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		6F8BDEA0CF0DF44402EA9A1987CC4AB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 17E17250101B85B5BEB98B61B0ABA695 /* Pods-GpalFwkUtils_Tests.debug.xcconfig */;
@@ -567,35 +630,6 @@
 			};
 			name = Release;
 		};
-		74236927A3FB116A234A650DFE9F9170 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C54065EDB552CDD70AB6BA86655070F1 /* GpalFwkUtils.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GpalFwkUtils/GpalFwkUtils-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GpalFwkUtils/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GpalFwkUtils/GpalFwkUtils.modulemap";
-				PRODUCT_NAME = GpalFwkUtils;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		A81A29A2479F688CD5112569381C58B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F7D2AF3240C4FC86C78AE4C52FD5C82E /* Pods-GpalFwkUtils_Example.debug.xcconfig */;
@@ -628,36 +662,6 @@
 			};
 			name = Debug;
 		};
-		AD33318A287E46D083E2630F69C1043C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C54065EDB552CDD70AB6BA86655070F1 /* GpalFwkUtils.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GpalFwkUtils/GpalFwkUtils-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GpalFwkUtils/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GpalFwkUtils/GpalFwkUtils.modulemap";
-				PRODUCT_NAME = GpalFwkUtils;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -679,20 +683,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		76900FF322494BEE04B95ECBB764A4AA /* Build configuration list for PBXNativeTarget "GpalFwkUtils" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				74236927A3FB116A234A650DFE9F9170 /* Debug */,
-				AD33318A287E46D083E2630F69C1043C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		9D5EA700EBF812216403E1CDD26C0D37 /* Build configuration list for PBXNativeTarget "Pods-GpalFwkUtils_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6F8BDEA0CF0DF44402EA9A1987CC4AB5 /* Debug */,
 				240CE8FC5052638D94E38B8656EF432B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDAADAD52A7024E758DD651A993841A7 /* Build configuration list for PBXNativeTarget "GpalFwkUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65202CB0A6FE68E4F61087FD0EACFD1A /* Debug */,
+				32EC86E9FF5CD43E9ED0A2A264725FE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

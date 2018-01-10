@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "NSString+Utils.h"
 
 FOUNDATION_EXPORT double GpalFwkUtilsVersionNumber;
 FOUNDATION_EXPORT const unsigned char GpalFwkUtilsVersionString[];
