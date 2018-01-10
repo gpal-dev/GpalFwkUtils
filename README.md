@@ -22,7 +22,7 @@ pod 'GpalFwkUtils'
 
 ## Author
 
-gpal.dev.ind@gmail.com, gpal-dev@github.com
+Gaurav Pal (gpal-dev@github.com)
 
 ## License
 
